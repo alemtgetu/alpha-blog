@@ -9,7 +9,7 @@
                     <%= link_to article.title, article_path(article) %>
                 </div>
                 <div class="article-body">
-                    <%= truncate(simple_format(article.description), length: 100) %> 
+                    <%= truncate(simple_format(article.description), escape: false, length: 100) %> 
                 </div>
                 <div class="article-actions">
                     <%= link_to "Edit article", edit_article_path(article), class: "btn btn-link" %>
