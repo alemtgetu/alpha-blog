@@ -53,9 +53,18 @@ footer ul li{
     margin-left: 15px;
 }
 .article-actions {
-    border-top: 1px solid #6E2C00;
+    border-top: 1px solid rgb(222, 225, 226);
     padding-top: 5px;
 }
 .description {
     margin-top: 0px;
+}
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.article-body {
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
